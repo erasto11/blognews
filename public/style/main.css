@@ -1,0 +1,18 @@
+.bd-mode-toggle {
+    z-index: 1500;
+}
+#form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+textarea{
+    border-radius: 5px;
+    border: 1px solid gainsboro;
+}
+.paragraph-limite{
+    max-width: 65ch;
+    overflow: hidden;
+    white-space: pre;
+    text-overflow: ellipsis;
+}
